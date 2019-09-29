@@ -1,0 +1,21 @@
+>> syms x
+>> limit(x^5*(sin(sqrt(3/x+5)))^2)
+
+ans =
+
+0
+
+>> syms x
+>> syms h
+>> limit((sin(x+h)-sin(x))/h,h,0)
+
+ans =
+
+cos(x)
+
+>> syms x
+>> limit(((3*x+7)/(3*x+5))^(3*x+1),inf)
+
+ans =
+
+exp(2)
